@@ -1,0 +1,22 @@
+{
+  "name": "telugu-ai-caller",
+  "version": "1.0.0",
+  "description": "Enterprise Telugu AI Calling Agent",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.105.0",
+    "@deepgram/sdk": "^5.4.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "twilio": "^6.0.2",
+    "ws": "^8.21.0"
+  }
+}

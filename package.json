@@ -1,0 +1,28 @@
+{
+  "name": "telugu-ai-caller",
+  "version": "1.0.0",
+  "description": "Enterprise Telugu AI Calling Agent",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cartesia/cartesia-js": "^3.2.0",
+    "@deepgram/sdk": "^5.4.0",
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2",
+    "elevenlabs": "^1.59.0",
+    "elevenlabs-js": "^1.2.6",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "openai": "^6.44.0",
+    "sarvamai": "^1.1.7",
+    "twilio": "^6.0.2",
+    "ws": "^8.21.0"
+  }
+}

@@ -1,0 +1,68 @@
+/** Conversation stages — each stage drives tone and pacing differently. */
+export const ConversationStage = {
+  GREETING: "GREETING",
+  INTRODUCTION: "INTRODUCTION",
+  DISCOVERY: "DISCOVERY",
+  CLARIFICATION: "CLARIFICATION",
+  PROBLEM_SOLVING: "PROBLEM_SOLVING",
+  INFORMATION_GATHERING: "INFORMATION_GATHERING",
+  RECOMMENDATION: "RECOMMENDATION",
+  CONFIRMATION: "CONFIRMATION",
+  CLOSING: "CLOSING"
+};
+
+export const CustomerEmotion = {
+  NEUTRAL: "neutral",
+  CONFUSED: "confused",
+  ANGRY: "angry",
+  NERVOUS: "nervous",
+  HAPPY: "happy",
+  EXCITED: "excited",
+  TIRED: "tired",
+  BUSY: "busy",
+  CURIOUS: "curious",
+  IMPATIENT: "impatient"
+};
+
+export const AgentTone = {
+  PROFESSIONAL: "professional",
+  FRIENDLY: "friendly",
+  PATIENT: "patient",
+  ENERGETIC: "energetic",
+  EMPATHETIC: "empathetic",
+  CALM: "calm",
+  CONCISE: "concise"
+};
+
+export const SpeakingSpeed = {
+  SLOW: "slow",
+  NATURAL: "natural",
+  MEDIUM_FAST: "medium_fast",
+  FAST: "fast"
+};
+
+export const Intent = {
+  GREETING: "GREETING",
+  IDENTITY: "IDENTITY",
+  COMPANY_INFO: "COMPANY_INFO",
+  SERVICE_INQUIRY: "SERVICE_INQUIRY",
+  PRICING: "PRICING",
+  DEMO_REQUEST: "DEMO_REQUEST",
+  CLOSING: "CLOSING",
+  CLARIFICATION: "CLARIFICATION",
+  COMPLAINT: "COMPLAINT",
+  GENERAL: "GENERAL"
+};
+
+export const AgentAction = {
+  GREET_CUSTOMER: "GREET_CUSTOMER",
+  INTRODUCE_YOURSELF: "INTRODUCE_YOURSELF",
+  INTRODUCE_COMPANY: "INTRODUCE_COMPANY",
+  EXPLAIN_SERVICE: "EXPLAIN_SERVICE",
+  DISCUSS_PRICING: "DISCUSS_PRICING",
+  BOOK_DEMO: "BOOK_DEMO",
+  END_CONVERSATION: "END_CONVERSATION",
+  CLARIFY: "CLARIFY",
+  DE_ESCALATE: "DE_ESCALATE",
+  CONTINUE_CONVERSATION: "CONTINUE_CONVERSATION"
+};
